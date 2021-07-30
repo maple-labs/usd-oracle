@@ -1,9 +1,6 @@
 {
   "language": "Solidity",
   "sources": {
-    "contracts/interfaces/IUsdOracle.sol": {
-      "urls": ["contracts/interfaces/IUsdOracle.sol"]
-    },
     "contracts/UsdOracle.sol": {
       "urls": ["contracts/UsdOracle.sol"]
     },
