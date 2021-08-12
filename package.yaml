@@ -1,0 +1,8 @@
+name: usd-oracle
+version: 1.0.0
+source: contracts
+packages:
+  - path: contracts/UsdOracle.sol
+    contractName: UsdOracle
+    customChecksum: 0xe9bcb38f2894108825ad4729448c34ef043d7b6c0b6fe22dc978d35e65d19146
+customDescription: USD Oracle Artifacts and ABIs

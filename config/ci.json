@@ -1,0 +1,30 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/UsdOracle.sol": {
+      "urls": ["contracts/UsdOracle.sol"]
+    },
+    "contracts/test/UsdOracle.t.sol": {
+      "urls": ["contracts/test/UsdOracle.t.sol"]
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode"
+        ],
+        "": ["ast"]
+      }
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    }
+  }
+}
